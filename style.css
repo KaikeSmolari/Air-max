@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100;
+    background-image: url(FD.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem {
+height: 40px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 100px;
+}
+.cabecalho-menu-item {
+ font-family: "Courgette", system-ui;
+  font-weight: 400;
+  font-size: 18px;
+  color: cyan;
+}
+
+.conteudo {
+    border-top: beige; 
+}
+.corpo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 32;
+}
+.informacoes-titulo {
+    font-family: "Courgette", system-ui;
+    font-weight: 400;
+    font-size: 28px;
+    color: cyan;
+}
+.informacoes-subtitulo {
+    font-family: "Courgette", system-ui;
+  font-weight: 400;
+  font-size: 20px;
+  color: cyan;
+}
+.rodape {
+    font-family: "Courgette", system-ui;
+  font-weight: 400;
+  font-size: 20px;
+  color: cyan;
+}
